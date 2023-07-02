@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    color:aliceblue;
+    border-bottom: 2.5px solid gray;
+    width:100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 30px;
+    position:absolute;
+    top:0;
+    left:0;
+    font-family: 'Agdasima', sans-serif;
+}
+.navbar a img{
+    top: 2pc;
+    float:left;
+    width: 80px;
+    height: 40px !important;
+    color:aliceblue;
+    position: relative;
+}
+.navbar a{
+    text-decoration: none;
+    color:aliceblue;
+    text-align: center;
+    min-width: 120px;
+    padding:0 30px;
+    position: relative;
+}
+.navbar a img:hover{
+    filter:brightness(150%);
+    transition-duration: 5s;
+}
+
+
+.navbar a:hover{
+    color: red;
+    transform: scale(1.1);
+    filter: brightness(150%);
+}
+body{
+    background-color: black;
+}
+.content{
+    float: left;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 2pc;
+    color:aliceblue;
+    margin-top: 100px;
+    inline-size: 600px;
+    overflow-wrap: break-word;
+    margin-left:100px;
+    overflow: hidden;
+
+}
+.content :hover{
+    color: #d40404;
+    transition-duration: 2s;
+    
+}
+h1{
+    font-size: 70px;
+}
+h1:hover{
+    color: red;
+    transition-duration: 2s;
+}
+main{
+    display: grid;
+    grid-template-column: 1fr 1fr;
+}
+.btns{
+    margin-top:20px;
+    background-color: rgb(127, 123, 123);
+    cursor: pointer;
+    color:rgb(245, 245, 245);
+    padding: 12px 20px;
+    float: left;
+    border: 0;
+    border-radius: 20px;
+    margin-left:10px;
+}
+.btns:hover{
+    background: rgb(236, 6, 6);
+    color: #f7f3f3;
+    transition-duration: 2s;
+}
+div img{
+
+   
+    width:300px;
+    float:right;
+    position: relative;
+    top: -380px;
+    left:-200px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+div img:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transition-duration: 2s;
+  }
