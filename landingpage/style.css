@@ -113,6 +113,7 @@ div img:hover {
     -moz-filter: grayscale(0%);
     transition-duration: 2s;
     box-shadow: 0 0 10pc rgb(236, 6, 6);
+    aspect-ratio: 1:1;
   }
 
   content audio{
