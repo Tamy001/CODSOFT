@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial scale = 1.0">
+        <title>Landing Page</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class ="navbar">
+            <a href="index.html"><img src="logo.jpg" class = "nav-logo"></a>
+            
+                <a href = "">Home</a>
+                <a href = "">About Us</a>
+                <a href = "">Contact Us</a>
+                <a href ="">Buy Game</a>
+            </ul>
+        </nav>
+        <main>
+            <div class="content">
+                <h1>Max Payne : A Masterpiece</h1>
+                <P> Max Payne : In the land of the blind, the one-eyed man is king.</p>
+
+                 <p> Max Payne : One thing you can count on: You push a man too far, and sooner or later he'll start pushing back.</p>
+                    
+                 <p> Max Payne : He was trying to buy more sand for his hour glass. I wasn't selling any.</p>
+
+                 <p>Play Soundtrack:</p>
+
+                 <audio id="mujic"><source src="max.mp3" type="audio/mpeg"></audio>
+               
+                    <button class ="btns" value="play" onclick="play()"> <script>
+                        var audio=document.getElementById("mujic");
+                            function play() {
+                                audio.play()
+                            }
+                            function pause() {
+                                audio.pause()
+                            }
+                   </script><i class="fa fa-play" aria-hidden="true"></i></button>
+                    <button class = "btns" value="pause" onclick="pause()"><i class="fa fa-pause" aria-hidden="true"></i></button>
+                   
+                </div>
+            <div>
+            <img src = "payne.jpg">
+            </div>
+        </main>
+    </body>
+</html>
