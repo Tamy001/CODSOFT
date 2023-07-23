@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width" initial-scale="1.0">
+        <title>Portfolio website</title>
+        <link rel="stylesheet" href="style.css"> 
+        <script src="https://kit.fontawesome.com/9b3946862c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="header">
+            <a href="#" class="logo">Logo</a>
+                <nav class="navu">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#About">About</a>
+                    <a href="#Skills">Skills</a>
+                    <a href="#Projects">Projects</a>
+                    <a href="#Contact">Contact</a>
+                </nav>
+        </nav>
+
+        <section id="home">
+            <div class="home-content">
+                <h2>Hi,My Name Is</h2>
+                <h1>Tanmay Samanta</h1>
+                <h3>And I'm a <span id="multi-text"></span></h3>
+            </div>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href="" class="btn"><i class="fa-sharp fa-solid fa-download"></i><span>Download CV</span></a>
+            </div>
+            <div class="pic">
+                <img src="pic.png" class="picu">
+            </div>
+        </section>
+
+        <section id="About">
+            <h1><span>A</span>
+                <span>B</span>
+                <span>O</span>
+                <span>U</span>
+                <span>T</span>
+                <span> </span>
+                <span>M</span>
+                <span>E</span>
+                <span>:</span>
+            </h1>
+                <ul>
+                <li>My name is Tanmay Samanta, I am from Durgapur,West Bengal,India.</li>
+                <li>Currently pursuing my B.Tech Degree CSE at University Of Engineering & Management Jaipur.</li>
+                <li>Completed my Secondary Education from Hem Sheela Model School,West Bengal.</li>
+                <li>Completed my Higher Secondary Education from Bidhan Chandra Institution,West Bengal.</li>
+                <li>Completed my Diploma from New Horizons Institute Of Technology,West Bengal.</li>
+                <li>My hobbies include Reading Storybooks,Travelling & Writing.</li>
+            </ul>
+        </section>
+
+        <section id="Skills">
+            <span id="skill-left">
+                <p>HTML</p>
+                <span class="skill bar">
+                <div class="skills html">90%</div>
+                </span>
+
+                <p>CSS</p>
+                <span class="skill bar">
+                <div class="skills css">60%</div>
+                </span>
+
+                <p>JavaScript</p>
+                <span class="skill bar">
+                <div class="skills js">50%</div>
+                </span>
+
+                <p>React</p>
+                <span class="skill bar">
+                <div class="skills react">30%</div>
+                </span>
+                </span>
+                <span>
+                </span>
+        </section>
+
+
+        <section id="Projects">
+            <span class="procont">
+                <span class="pro1">
+                    <span class="pro1i">
+                    <img src="hand.png" class="pic1">
+                    <span>Hand-Recognition</span>
+                </span>
+                <span class="pro1i2">
+                    <img src="tefq.png" class="pic2">
+                    <span>TEFQ-The Engineering Funda Quiz</span>
+                </span>
+                </span>
+                <span class="pro2">
+                    <span class="pro1i3">
+                        <img src="crime.jpeg" class="pic1">
+                        <span>Crime-Data-Analytics</span>
+                    </span>
+                    <span class="pro1i4">
+                        <img src="itl.png" class="pic2">
+                        <span>InTheLoop-HR & Student Website</span>
+                    </span>
+                </span>
+            </span>
+        </section>
+
+        <section id="Contact">
+            <div class="contact-form">
+                <form>
+                    <span id="multi"></span>
+                    <br><br>
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+                </span>
+                </form>
+              </div>
+        </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+    </body>
+</html>
